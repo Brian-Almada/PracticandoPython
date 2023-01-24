@@ -1,4 +1,4 @@
 #Variables
 
-MyVariable = "My String Variable"
-print(MyVariable)
+my_string_variable = "My String Variable"
+print(my_string_variable)
