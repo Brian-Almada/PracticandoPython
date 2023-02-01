@@ -31,3 +31,19 @@ language = 'Python'
 a, b, c, d, e, f = language
 
 print(a,f)
+
+# División
+
+language_slice = language[1:3]
+print(language_slice)
+
+language_slice = language[1:]
+print(language_slice)
+
+language_slice = language[-2]
+print(language_slice)
+
+# Reverse
+
+language_reverse = language[::-1]
+print(language_reverse)
