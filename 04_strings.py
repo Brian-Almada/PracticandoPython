@@ -47,3 +47,17 @@ print(language_slice)
 
 language_reverse = language[::-1]
 print(language_reverse)
+
+# Funciones
+
+print(language.capitalize())
+print(language.upper())
+print(language.count("t"))
+print(language.isnumeric())
+print("1".isnumeric())
+print(language.lower())
+print(language.upper().isupper())
+print(language.startswith("py"))
+
+
+
