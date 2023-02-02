@@ -25,3 +25,15 @@ print(my_other_list[-4])
 print(my_other_list[-3])
 print(my_other_list[-2])
 print(my_other_list[-1])
+
+print(my_list.count(88)) # El método count retorna el número de ocurrencias que tiene un valor
+age, height, name, surname = my_other_list #Desempaquetado
+print(name)
+print(age)
+print(my_list + my_other_list) # Concatenado de listas
+my_other_list.append("Programador") # Agrega un elemento a la lista en el último lugar
+print(my_other_list)
+my_other_list.insert(4, "Pastelero") # Agrega un elemento a la lista en la posición elegida
+print(my_other_list)
+my_other_list.remove("Pastelero")
+print(my_other_list)
