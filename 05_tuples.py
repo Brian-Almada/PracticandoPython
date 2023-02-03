@@ -20,7 +20,9 @@ print(my_tuple.count('Brian'))
 
 my_other_tuple = ('Pastelero', 'Programador')
 
-my_sum_tuple = my_tuple + my_other_tuple
+my_sum_tuple = my_tuple + my_other_tuple # Lo que sí se puede hacer es sumar dos tuplas ya que no se estarían modificando si no que se está creando una nueva
 print(my_sum_tuple)
+
+
 
 
