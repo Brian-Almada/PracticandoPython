@@ -17,3 +17,7 @@ my_other_set.add('Programador')
 print(my_other_set) # Un set no admite repetidos
 
 # IMPORTANTE: {} NO crea un conjunto vacío, sino un diccionario vacío. Usa set() si quieres crear un conjunto sin elementos
+
+my_set = {'Pastelero'}
+my_new_set = my_other_set.union(my_set)
+print(my_new_set)
