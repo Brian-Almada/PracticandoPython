@@ -15,3 +15,5 @@ print(my_other_set) # Un set no es una estructura ordenada
 
 my_other_set.add('Programador')
 print(my_other_set) # Un set no admite repetidos
+
+# IMPORTANTE: {} NO crea un conjunto vacío, sino un diccionario vacío. Usa set() si quieres crear un conjunto sin elementos
