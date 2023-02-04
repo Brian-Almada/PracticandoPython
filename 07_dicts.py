@@ -30,3 +30,11 @@ print(my_dict)
 
 print("Alexis" in my_dict) # Da False porque in busca keys no values
 print("Nombre" in my_dict)
+
+print(my_dict.items())
+print(my_dict.keys())
+print(my_dict.values())
+
+
+my_new_dict = my_other_dict.fromkeys(("Nombre", 1))
+print(my_new_dict)
