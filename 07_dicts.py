@@ -36,5 +36,6 @@ print(my_dict.keys())
 print(my_dict.values())
 
 
-my_new_dict = my_other_dict.fromkeys(("Nombre", 1))
+my_new_dict = dict.fromkeys((my_dict)) #Fromkeys crea un diccionario nuevo con las mismas keys pero sin valores
 print(my_new_dict)
+
