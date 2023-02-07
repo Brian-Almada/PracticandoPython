@@ -1,7 +1,7 @@
 #Loops
 #Es un mecanismo para poder iterar
 
-# While
+# While --- Se repite varias veces en función de una condición
 
 my_condition = 0
 
