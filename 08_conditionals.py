@@ -25,3 +25,10 @@ if my_condition > 10:
     print("Es mayor que 10")
 else: #Con el else le decimos al condicional que si no se cumple de una forma se cumpla de esta manera
     print("Es menor o igual que 10")
+
+my_condition = 5 * 3
+
+if my_condition > 10 and my_condition < 20:
+    print("Es mayor que 10 y menor que 20")
+else:
+    print("Es menor o igual que 10 o mayor o igual que 20")
