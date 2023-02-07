@@ -29,3 +29,11 @@ while my_condition < 20:
         break
 
     print(my_condition)
+
+
+# For -- Se repite varias veces según la cantidad de elementos iterables tengamos para recorrer
+
+my_list = [35, 24, 62, 52, 30, 30, 17]
+
+for element in my_list:
+    print(element)
