@@ -20,3 +20,12 @@ while my_condition < 20:
 
 
 
+# While con break
+
+while my_condition < 20:
+    my_condition += 1
+    if my_condition == 15:
+        print("Se detiene la ejecución del if")
+        break
+
+    print(my_condition)
