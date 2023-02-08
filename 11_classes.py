@@ -14,6 +14,6 @@ class Person:
         self.name = name
         self.surname = surname
 
-my_person = Person("Brian", "Almada")
+my_person = Person("Brian", "Almada") # Aquí estamos definiendo las propiedades por parámetro fuera del constructor
 
 print(f"{my_person.name} {my_person.surname}")
