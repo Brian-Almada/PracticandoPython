@@ -22,7 +22,7 @@ print(f"{my_person.name} {my_person.surname}")
 
 class OnePerson:
     def __init__(self):
-        self.name = "Izan"
+        self.name = "Izan"  # Aquí las propiedades están definidas dentro del constructor y no pasados por parámetro
         self.surname = "Almada"
 
 a_person = OnePerson()
