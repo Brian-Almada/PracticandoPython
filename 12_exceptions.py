@@ -25,3 +25,16 @@ except TypeError:
     print("Se ejecuta si hay un TypeError")
 except ValueError:
     print("Se ejecuta si hay un ValueError")
+
+
+# Capturando el error
+
+num_3 = 30
+num_4 = 0
+
+try:
+    print(num_3 / num_4)
+    print("Si está todo bien voy yo")
+except ZeroDivisionError as error:
+    print("Si alguien intenta dividir por 0 voy yo")
+    print(error)
