@@ -38,3 +38,5 @@ class twoPerson:
 
 a_two_person = twoPerson("Eluney", "Almada")
 print(a_two_person.full_name)
+
+a_two_person.walk()
