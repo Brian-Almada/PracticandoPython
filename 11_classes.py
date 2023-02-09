@@ -27,3 +27,12 @@ class OnePerson:
 
 a_person = OnePerson()
 print(f"{a_person.name} {a_person.surname}")
+
+# creando clase con una propiedad en el constructor que almacena otras propiedades (como si fuera una variable)
+
+class twoPerson:
+    def __init__(self, name, surname):
+        self.full_name = f"{name} {surname}"
+
+a_two_person = twoPerson("Eluney", "Almada")
+print(a_two_person.full_name)
