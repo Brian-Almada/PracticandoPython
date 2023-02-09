@@ -39,3 +39,16 @@ except ZeroDivisionError as error:
     print("Si alguien intenta dividir por 0 voy yo")
     print(error)
     print(f"Ha ocurrido un un error del tipo {error}")
+
+# Usando un manejador que recibe todos los tipos de errores
+
+num_5 = 3436
+num_6 = 0
+
+try:
+    print(num_5 / num_6)
+    print("Se ejecuta si no hay error")
+except ValueError as e:
+    print("Se ejecuta si hay un ValueError")
+except Exception as e:
+    print("Se ejecuta si hay algún error que no he declarado")
