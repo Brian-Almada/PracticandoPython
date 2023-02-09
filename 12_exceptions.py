@@ -38,3 +38,4 @@ try:
 except ZeroDivisionError as error:
     print("Si alguien intenta dividir por 0 voy yo")
     print(error)
+    print(f"Ha ocurrido un un error del tipo {error}")
