@@ -18,3 +18,9 @@ import math
 
 print(math.pi)
 print(math.pow(2, 8))
+
+# Cambiando el nombre de alguna función importada del sistema reservado de Python (No es obligatorio)
+
+from math import pi  as PI_VALUE
+
+print(PI_VALUE)
