@@ -11,3 +11,10 @@ from module import sumValue, printValue
 
 sumValue(10, 9, 11)
 printValue("Hola bebé")
+
+# Importando módulo del sistema reservado de Python
+
+import math
+
+print(math.pi)
+print(math.pow(2, 8))
