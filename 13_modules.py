@@ -2,12 +2,12 @@
 
 import module
 
-module.sum(5, 3, 4)
-print(sum)
+module.sumValue(5, 3, 4)
+print(sumValue)
 
 module.printValue("Hola Elunita!!")
 
-from module import sum, printValue
+from module import sumValue, printValue
 
-sum(10, 9, 11)
+sumValue(10, 9, 11)
 printValue("Hola bebé")
